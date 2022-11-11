@@ -1,25 +1,19 @@
-# README
+# Car Inventory App
+## Tech
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Carp Inventory App uses a number of open source projects to work properly:
 
-Things you may want to cover:
+- [Ruby on Rails] - For the backend
+- [Docker] - For virtualization
 
-* Ruby version
+## Installation
 
-* System dependencies
+Car Inventoy App requires [Ruby on Rails](https://rubyonrails.org) v7+ to run.
 
-* Configuration
+1- run docker build .
+2- run docker-compose up
+3- run docker exec car_inventory_app_app_1 rake db:create
+4- run docker exec car_inventory_app_app_1 rake db:migrate
+5- run docker exec car_inventory_app_app_1 rake db:seed
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# car_inventory_app
+The app is running on localhost:3000
