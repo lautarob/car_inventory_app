@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  price: 9.99
+  description: MyString
+  brand: 1
+  condition: 1
+  dealership: one
+
+two:
+  price: 9.99
+  description: MyString
+  brand: 1
+  condition: 1
+  dealership: two
